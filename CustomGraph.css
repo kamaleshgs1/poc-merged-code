@@ -1,0 +1,56 @@
+/* CustomGraph.css */
+
+.graph-page-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  margin-top: 1px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+   /* Keep the input container fixed */
+  top: 70px; /* Adjust the top position to move it lower */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+#traceInput {
+  padding: 10px;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.trace-button {
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message {
+  margin-top: 1px;
+  font-weight: bold;
+}
+
+/* CustomGraph.css */
+
+.details-panel {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px; /* Adjust the width as needed */
+  position: absolute;
+  top: 100px; /* Adjust the top position to move it lower */
+  right: 10px; /* Adjust the right position as needed */
+}
